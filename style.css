@@ -10,7 +10,7 @@ nav{
   background-image: url(./images/871025\ \(1\).jpg);
   background-size: cover;
   background-position: center bottom;
-  height: 100vh;
+  height: 90vh;
 }
 
 /*------About me------*/
@@ -29,4 +29,15 @@ nav{
 }
 #AboutMe .media a{
   color: black;
+}
+
+
+/*------Projects------*/
+.aspectRatioBox{
+  padding-top: calc(2 / 3 * 100%); /* aspect ratio 3:2 */
+  background-size: cover;
+  background-position: center;
+}
+.container{
+  font-family: 'Times New Roman', Times, serif;
 }
